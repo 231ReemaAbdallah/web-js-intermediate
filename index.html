@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="styles.css">
 <style>
 * {
   box-sizing: border-box;
@@ -75,6 +75,7 @@ body {
 .card {
   background-color: white;
   padding: 20px;
+  color: black;
   margin-top: 20px;
 }
 
@@ -109,32 +110,35 @@ body {
     width: 100%;
   }
 }
+p{
+  margin: 10px;
+}
 </style>
 </head>
 <body>
 
-<div class="header">
-    <img src="vegetable.svg" style="width: 100px; height: 50%; float: right;">
-  <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkred;" >fruity</h1>
+  <div class="header">
+    <img src="vegetable.svg" style="width: 150px; height: 70%; float: right;">
+  <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkred; font-size: 60px;" >fruity</h1>
+  
   <!-- <p>Resize the browser window to see the effect.</p> -->
 </div>
 <div class="topnav">
-  <a href="index.html">Home</a>
-  <a href="store.html">store</a>
-  <a href="about.html">about</a>
 
-  <!-- <a href="#">Link</a> -->
-  <!-- <a href="#" style="float:right">Link</a> -->
-</div>
+    <a href="index.html">Home</a>
+    <a href="store.html">store</a>
+    <a href="about.html">about</a>
+  
+
+  </div>
+</header>
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
-      <!-- <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5> -->
-      <div class="fakeimg" style="height:200px;"><img src="4.Fresh-fruits.jpg" style="width: 50%; height: 120%;"></div>
-      <p>Most Australians eat only about half the recommended quantity of fruit.  However many of us drink far too much fruit juice. Fruit juices can be high in energy (kilojoules) and low in dietary fibre, and can even damage your teeth. Whole fruits are a much better choice, and are more filling.</p>
-    </div>
+
+     <img src="66.jpg" style="width: 50%; height: 300px; margin: 30px;">
+    <p>Most Australians eat only about half the recommended quantity of fruit.  However many of us drink far too much fruit juice. Fruit juices can be high in energy (kilojoules) and low in dietary fibre, and can even damage your teeth. Whole fruits are a much better choice, and are more filling.</p>
+
     <div class="card">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
@@ -162,9 +166,28 @@ body {
   </div>
 </div>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+<footer class="main-footer">
+  <div class="container main-footer-container">
+      <h3 class="band-name" style="font-size: 20px;">For your suggestions or to contact us, visit us on our  social media</h3>
+      <ul class="nav footer-nav">
+          <li>
+              <a href="https://www.youtube.com" target="_blank">
+                  <img src="instagram.svg">
+              </a>
+          </li>
+          <li>
+              <a href="https://www.spotify.com" target="_blank">
+                  <img src="whatsapp.svg">
+              </a>
+          </li>
+          <li>
+              <a href="https://www.facebook.com" target="_blank">
+                  <img src="twitter.svg">
+              </a>
+          </li>
+      </ul>
+  </div>
+</footer>
 
 </body>
 </html>
