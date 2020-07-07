@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html >
     <head>
         <title>Fruity</title>
         <meta name="description" content="This is the description">
         <!-- <link rel="stylesheet" href="styles.css" /> -->
         <link rel="stylesheet" href="./styles.css">
         <script src="./js/script.js"></script>
+        <style>
+    table, th, td {
+  border-collapse: collapse;
+  /* display: block; */
+  float: left;
+}
+th, td {
+  /* padding: 5px; */
+}
+th {
+  text-align: left;
+}
+.padding { 
+  padding: auto; 
+  padding-bottom: 200px; 
+  padding-right: 900px;
+  padding-left: 800px;
+  padding-top: 300px;
+}
+        </style>
     </head>
-    <body>
+    <body class="reema">
         <div class="header">
             <img src="vegetable.svg" style="width: 150px; height: 70%; float: right;">
           <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkred; font-size: 60px;" >Fruity</h1>
@@ -36,41 +56,83 @@
             <h1 class="band-name band-name-large">Categories</h1>
         </header>
         <section class="container content-section">
-
-            <div class="shop-items">
-                <div class="shop-item">
-                    <span class="shop-item-title"> Strawberry</span>
-                    <img class="shop-item-image" src="1.jpg">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$14.62</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title"> Orange</span>
-                    <img class="shop-item-image" src="2.jpg">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$18.91</span>
-                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title"> Mango</span>
-                    <img class="shop-item-image" src="4.jpg">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$7.60</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title"> Banana</span>
-                    <img class="shop-item-image" src="./image-1.jpg">
-                    <div class="shop-item-details">
-                        <span class="shop-item-price">$33.96</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+<!-- l -->
+<table style="width:100%" class="padding">
+    <tr>
+      <th>    <tr>
+        <td>                <div class="shop-item">
+          <span class="shop-item-title"> Banana</span>
+          <img class="shop-item-image" src="./image-1.jpg">
+          <div class="shop-item-details">
+              <span class="shop-item-price">$33.96</span>
+              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+  </td></th>
+<th>
+    <td>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title"> Strawberry</span>
+                <img class="shop-item-image" src="1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.62</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
+
+      </td>
+</th>
+      <!-- <th>Age</th> -->
+    </tr>
+    <tr>
+      <!-- <td>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title"> Strawberry</span>
+                <img class="shop-item-image" src="1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.62</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+      </td> -->
+      <td>                <div class="shop-item">
+        <span class="shop-item-title"> Orange</span>
+        <img class="shop-item-image" src="2.jpg" style="padding-right: 20px;">
+        <div class="shop-item-details">
+            <span class="shop-item-price">$18.91</span>
+            <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+        </div>
+    </div>
+</td>
+      <td>                <div class="shop-item">
+        <span class="shop-item-title"> Mango</span>
+        <img class="shop-item-image" src="4.jpg" style="padding:10px;">
+        <div class="shop-item-details">
+            <span class="shop-item-price">$7.60</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+    </div>
+</td>
+    </tr>
+    <!-- <tr>
+      <td>                <div class="shop-item">
+        <span class="shop-item-title"> Banana</span>
+        <img class="shop-item-image" src="./image-1.jpg">
+        <div class="shop-item-details">
+            <span class="shop-item-price">$33.96</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+    </div>
+</div>
+</td> -->
+
+    </tr>
+  </table>
+            <!-- l -->
         </section>
         <section class="container content-section">
             <div class="shop-items">
@@ -91,6 +153,16 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="shop-item">
+                <span class="shop-item-title"> apple</span>
+                <img class="shop-item-image" src="app.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.54</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div> -->
+
         </section>
         <section class="container content-section">
             <h2 class="section-header">CART</h2>
@@ -127,7 +199,9 @@
                 <strong class="cart-total-title">Total</strong>
                 <span class="cart-total-price">$20.72</span>
             </div>
+            <a href="page3.html">
             <button class="btn btn-primary btn-purchase" type="button">Complete the purchase</button>
+        </a>
         </section>
      
         <footer class="main-footer">
